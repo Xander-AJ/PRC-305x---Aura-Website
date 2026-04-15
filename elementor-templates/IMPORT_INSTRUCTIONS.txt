@@ -1,0 +1,42 @@
+Elementor templates (PRC 305 — Aura)
+======================================
+
+Format: Elementor document JSON version "0.4" (official structure: title, type, version, page_settings, content).
+
+JAK portfolio (legacy)
+----------------------
+- jak-portfolio-home-page.json — previous build; import via Templates → Saved Templates → Import Templates.
+
+Aura brand (current)
+--------------------
+- aura-home-page.json
+- aura-about-page.json
+- aura-products-page.json
+- aura-contact-page.json
+
+The Contact template embeds a MetForm form ID in the MetForm widget (`mf_form_id`). After importing on another site, create the "Aura Contact" form in MetForm (or run the setup script) and set the widget to that form’s ID.
+
+Apply to this XAMPP install (recommended)
+-----------------------------------------
+From a terminal:
+
+  /Applications/XAMPP/xamppfiles/bin/php /Applications/XAMPP/xamppfiles/htdocs/wordpress/scripts/aura-prc305-setup.php
+
+This updates the live Pages (Home 126, About 128, Products 130, Contact 132), Elementor Site Kit colors/typography, MetForm "Aura Contact", primary menu order, deactivates My Sticky Menu once, resets Hello Elementor Additional CSS stub, and rewrites the JSON files above.
+
+**Note:** WordPress post meta `_elementor_data` stores only the `content` array from these files. The full JSON wrapper is for Library import / submission; the setup script splits `content` vs `page_settings` correctly.
+
+How to import in wp-admin (submission / other environments)
+-----------------------------------------------------------
+1. Log in to wp-admin (e.g. http://localhost/wordpress/wp-admin).
+2. Elementor → Templates → Saved Templates → Import Templates → choose an `aura-*.json` file.
+3. On a Page → Edit with Elementor → add template from My Templates, **or** insert sections manually to match.
+4. For Contact: ensure MetForm is active, form exists, and the MetForm widget points at that form.
+5. Settings → Reading: static front page = Home.
+
+Before major changes: back up database `prc305` (e.g. phpMyAdmin Export or `mysqldump`) and `wp-content/uploads/`.
+
+Troubleshooting
+---------------
+- Critical error after import: if `_elementor_data` was saved as the entire JSON file instead of the `content` array, Elementor will fatal — re-run `aura-prc305-setup.php` or re-save the page in Elementor.
+- MetForm submit fails: check admin email under Settings → General; MetForm → entries; ensure recaptcha is not required unless keys are set (Aura setup removes the recaptcha widget from the template).

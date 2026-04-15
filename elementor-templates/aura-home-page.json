@@ -1,0 +1,1091 @@
+{
+    "title": "Aura — Home",
+    "type": "page",
+    "version": "0.4",
+    "page_settings": {
+        "background_background": "classic",
+        "background_color": "#060d18"
+    },
+    "content": [
+        {
+            "id": "2d245c0c",
+            "elType": "section",
+            "isInner": false,
+            "settings": {
+                "layout": "boxed",
+                "content_width": {
+                    "unit": "px",
+                    "size": 1200,
+                    "sizes": []
+                },
+                "gap": "no",
+                "structure": "20",
+                "padding": {
+                    "unit": "px",
+                    "top": "72",
+                    "right": "24",
+                    "bottom": "56",
+                    "left": "24",
+                    "isLinked": false
+                },
+                "background_background": "gradient",
+                "background_color": "#060d18",
+                "background_color_b": "#0f4a45",
+                "background_gradient_angle": {
+                    "unit": "deg",
+                    "size": 152,
+                    "sizes": []
+                }
+            },
+            "elements": [
+                {
+                    "id": "7c50c0c0",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 100,
+                        "width": {
+                            "unit": "%",
+                            "size": 52,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "c5c1517f",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"color:#6ecfb8;font-size:11px;letter-spacing:0.24em;text-transform:uppercase;margin:0 0 16px;font-weight:600\">East Africa · Premium functional drinks</p>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "f4a7c126",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Aura",
+                                "header_size": "h1",
+                                "align": "left",
+                                "title_color": "#f7f4ef",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 58,
+                                    "sizes": []
+                                },
+                                "typography_font_weight": "700"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "0fa4e714",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Focus, flow, and fuel for the long day.",
+                                "header_size": "h3",
+                                "align": "left",
+                                "title_color": "#e3c76f"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "f0fbaf88",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"color:#c8d6df;max-width:36rem;line-height:1.7;font-size:17px;font-weight:400\">Aura is a premium functional beverage line crafted for young professionals, creators, and night-shift hustlers. We balance clean focus and steady hydration with a bold East African sensibility—real ingredients, crisp taste, and none of the sugar-crash theatre.</p><p style=\"color:#94aab8;max-width:36rem;line-height:1.65;font-size:15px;margin-top:14px\">Whether you are closing deals in Nairobi, building in Kampala, or editing until 3am, Aura is built to keep your edge sharp and your body honest.</p>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "068543a3",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "isInner": false,
+                            "settings": {
+                                "text": "Explore the range",
+                                "link": {
+                                    "url": "http://localhost/wordpress/products/",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "align": "left",
+                                "size": "md",
+                                "button_text_color": "#0a1219",
+                                "background_color": "#e3c76f",
+                                "hover_animation": "grow",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Outfit",
+                                "typography_font_weight": "600",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.1999999999999999555910790149937383830547332763671875,
+                                    "sizes": []
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "12",
+                                    "right": "12",
+                                    "bottom": "12",
+                                    "left": "12",
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "35e1bacd",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "isInner": false,
+                            "settings": {
+                                "text": "Partner with us",
+                                "link": {
+                                    "url": "http://localhost/wordpress/contact/",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "align": "left",
+                                "size": "md",
+                                "button_text_color": "#e3c76f",
+                                "background_color": "#1a354d",
+                                "hover_animation": "grow",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Outfit",
+                                "typography_font_weight": "600",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.1999999999999999555910790149937383830547332763671875,
+                                    "sizes": []
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "12",
+                                    "right": "12",
+                                    "bottom": "12",
+                                    "left": "12",
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "7d586d52",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 100,
+                        "width": {
+                            "unit": "%",
+                            "size": 48,
+                            "sizes": []
+                        },
+                        "content_position": "center"
+                    },
+                    "elements": [
+                        {
+                            "id": "6fcbdf61",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447820/Main_Color_-_White_t7yv0a.jpg",
+                                    "id": ""
+                                },
+                                "image_size": "full",
+                                "lazyload": "yes",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "14",
+                                    "right": "14",
+                                    "bottom": "14",
+                                    "left": "14",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(227,199,111,0.38)",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 14,
+                                    "blur": 28,
+                                    "spread": 0,
+                                    "color": "rgba(6,13,24,0.35)"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "03b44d3d",
+            "elType": "section",
+            "isInner": false,
+            "settings": {
+                "layout": "boxed",
+                "content_width": {
+                    "unit": "px",
+                    "size": 1200,
+                    "sizes": []
+                },
+                "structure": "20",
+                "padding": {
+                    "unit": "px",
+                    "top": "56",
+                    "right": "24",
+                    "bottom": "56",
+                    "left": "24",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#0c1a2c"
+            },
+            "elements": [
+                {
+                    "id": "8125e2aa",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 100,
+                        "width": {
+                            "unit": "%",
+                            "size": 50,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "e8421598",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Born in Nairobi. Made for momentum.",
+                                "header_size": "h2",
+                                "title_color": "#f7f4ef"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "9dcb2341",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"color:#c8d6df;line-height:1.75;font-size:16px\">Every formula starts with a simple question: what does a demanding day actually need? We layer botanicals, electrolytes, and carefully dosed caffeine into drinks that feel refined—not loud—so you can move from boardroom to studio without missing a beat.</p><p style=\"color:#94aab8;line-height:1.7;font-size:15px;margin-top:12px\">Aura is tuned for East Africa’s pace: heat, hustle, and high expectations. Same discipline in the can as you bring to your craft.</p>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "46913911",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "isInner": false,
+                            "settings": {
+                                "text": "Read our story",
+                                "link": {
+                                    "url": "http://localhost/wordpress/about/",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "align": "left",
+                                "size": "md",
+                                "button_text_color": "#0a1219",
+                                "background_color": "#e3c76f",
+                                "hover_animation": "grow",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Outfit",
+                                "typography_font_weight": "600",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.1999999999999999555910790149937383830547332763671875,
+                                    "sizes": []
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "12",
+                                    "right": "12",
+                                    "bottom": "12",
+                                    "left": "12",
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "5160a5f3",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 100,
+                        "width": {
+                            "unit": "%",
+                            "size": 50,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "cc8ea9b1",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447822/Green_Color-03_a0uqou.jpg",
+                                    "id": ""
+                                },
+                                "image_size": "full",
+                                "lazyload": "yes",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "14",
+                                    "right": "14",
+                                    "bottom": "14",
+                                    "left": "14",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(227,199,111,0.38)",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 14,
+                                    "blur": 28,
+                                    "spread": 0,
+                                    "color": "rgba(6,13,24,0.35)"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3c2bd04a",
+            "elType": "section",
+            "isInner": false,
+            "settings": {
+                "layout": "boxed",
+                "content_width": {
+                    "unit": "px",
+                    "size": 1200,
+                    "sizes": []
+                },
+                "structure": "30",
+                "padding": {
+                    "unit": "px",
+                    "top": "48",
+                    "right": "24",
+                    "bottom": "32",
+                    "left": "24",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#060d18"
+            },
+            "elements": [
+                {
+                    "id": "4fb22a7b",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 33
+                    },
+                    "elements": [
+                        {
+                            "id": "0966e515",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447784/Back_Pack_Bag_alwbfe.jpg",
+                                    "id": ""
+                                },
+                                "image_size": "full",
+                                "lazyload": "yes",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "14",
+                                    "right": "14",
+                                    "bottom": "14",
+                                    "left": "14",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(227,199,111,0.38)",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 14,
+                                    "blur": 28,
+                                    "spread": 0,
+                                    "color": "rgba(6,13,24,0.35)"
+                                }
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "9d7ee7ea",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Aura Focus",
+                                "header_size": "h4",
+                                "title_color": "#e3c76f"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "ebf6e23c",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"color:#94aab8;font-size:14px;line-height:1.65\">Green tea, citrus peel, and a precise caffeine curve—built for deep work, not jitters.</p>"
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "6cd6b8f2",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 33
+                    },
+                    "elements": [
+                        {
+                            "id": "08af40a5",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447815/Orange-Pink_Color-03_ampygk.jpg",
+                                    "id": ""
+                                },
+                                "image_size": "full",
+                                "lazyload": "yes",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "14",
+                                    "right": "14",
+                                    "bottom": "14",
+                                    "left": "14",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(227,199,111,0.38)",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 14,
+                                    "blur": 28,
+                                    "spread": 0,
+                                    "color": "rgba(6,13,24,0.35)"
+                                }
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "ffc4c78c",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Aura Flow",
+                                "header_size": "h4",
+                                "title_color": "#e3c76f"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "a1ca29f8",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"color:#94aab8;font-size:14px;line-height:1.65\">Electrolytes and coconut water notes for commutes, training blocks, and sun-heavy afternoons.</p>"
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "851e7993",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 33
+                    },
+                    "elements": [
+                        {
+                            "id": "b66dc577",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447784/Sample_1_svgnqu.jpg",
+                                    "id": ""
+                                },
+                                "image_size": "full",
+                                "lazyload": "yes",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "14",
+                                    "right": "14",
+                                    "bottom": "14",
+                                    "left": "14",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(227,199,111,0.38)",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 14,
+                                    "blur": 28,
+                                    "spread": 0,
+                                    "color": "rgba(6,13,24,0.35)"
+                                }
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "0c744166",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Aura Night",
+                                "header_size": "h4",
+                                "title_color": "#e3c76f"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "dbc09e38",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"color:#94aab8;font-size:14px;line-height:1.65\">Lower stim, chamomile and adaptogenic botanicals—when the deadline is real but sleep still matters.</p>"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5627f2eb",
+            "elType": "section",
+            "isInner": false,
+            "settings": {
+                "layout": "boxed",
+                "content_width": {
+                    "unit": "px",
+                    "size": 1200,
+                    "sizes": []
+                },
+                "structure": "20",
+                "padding": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": "24",
+                    "bottom": "40",
+                    "left": "24",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#0c1a2c"
+            },
+            "elements": [
+                {
+                    "id": "9f62769a",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "48c05065",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Design language",
+                                "header_size": "h2",
+                                "align": "center",
+                                "title_color": "#f7f4ef"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "9b0eab5a",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"text-align:center;color:#94aab8;max-width:42rem;margin:0 auto 28px;line-height:1.65\">From gradient cans to monochrome studies and carry systems—every touchpoint is meant to feel confident, contemporary, and unmistakably Aura.</p>"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4fc5a39b",
+            "elType": "section",
+            "isInner": false,
+            "settings": {
+                "layout": "full_width",
+                "gap": "no",
+                "structure": "40",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "24",
+                    "bottom": "56",
+                    "left": "24",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#0c1a2c"
+            },
+            "elements": [
+                {
+                    "id": "1be56284",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 25
+                    },
+                    "elements": [
+                        {
+                            "id": "46ac0df2",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447830/Sample_1-01_svvlxu.jpg",
+                                    "id": ""
+                                },
+                                "image_size": "full",
+                                "lazyload": "yes",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "14",
+                                    "right": "14",
+                                    "bottom": "14",
+                                    "left": "14",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(227,199,111,0.38)",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 14,
+                                    "blur": 28,
+                                    "spread": 0,
+                                    "color": "rgba(6,13,24,0.35)"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1306d5d4",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 25
+                    },
+                    "elements": [
+                        {
+                            "id": "60cecfcb",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447825/Sample_2-02_swl7vw.jpg",
+                                    "id": ""
+                                },
+                                "image_size": "full",
+                                "lazyload": "yes",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "14",
+                                    "right": "14",
+                                    "bottom": "14",
+                                    "left": "14",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(227,199,111,0.38)",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 14,
+                                    "blur": 28,
+                                    "spread": 0,
+                                    "color": "rgba(6,13,24,0.35)"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "8bcaab6a",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 25
+                    },
+                    "elements": [
+                        {
+                            "id": "eebd11e9",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447823/Sample_1-01_yy0yfz.jpg",
+                                    "id": ""
+                                },
+                                "image_size": "full",
+                                "lazyload": "yes",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "14",
+                                    "right": "14",
+                                    "bottom": "14",
+                                    "left": "14",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(227,199,111,0.38)",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 14,
+                                    "blur": 28,
+                                    "spread": 0,
+                                    "color": "rgba(6,13,24,0.35)"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "30f96086",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 25
+                    },
+                    "elements": [
+                        {
+                            "id": "7a22055e",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447823/Sample_3-03_huxhsc.jpg",
+                                    "id": ""
+                                },
+                                "image_size": "full",
+                                "lazyload": "yes",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "14",
+                                    "right": "14",
+                                    "bottom": "14",
+                                    "left": "14",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(227,199,111,0.38)",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 14,
+                                    "blur": 28,
+                                    "spread": 0,
+                                    "color": "rgba(6,13,24,0.35)"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "438c247d",
+            "elType": "section",
+            "isInner": false,
+            "settings": {
+                "layout": "boxed",
+                "content_width": {
+                    "unit": "px",
+                    "size": 1200,
+                    "sizes": []
+                },
+                "structure": "20",
+                "padding": {
+                    "unit": "px",
+                    "top": "48",
+                    "right": "24",
+                    "bottom": "72",
+                    "left": "24",
+                    "isLinked": false
+                },
+                "background_background": "gradient",
+                "background_color": "#0f4a45",
+                "background_color_b": "#060d18",
+                "background_gradient_angle": {
+                    "unit": "deg",
+                    "size": 95,
+                    "sizes": []
+                }
+            },
+            "elements": [
+                {
+                    "id": "99fe28b4",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "8e64189a",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Stock Aura. Sponsor the hustle.",
+                                "header_size": "h2",
+                                "align": "center",
+                                "title_color": "#f7f4ef"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "03dd54df",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"text-align:center;color:#c8d6df;max-width:38rem;margin:0 auto 22px;line-height:1.65\">Retail, hospitality, events, and creative partnerships—we work with teams who care about quality and consistency. Tell us what you are building; we will connect you with the right channel lead.</p>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "3f1da1fb",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"text-align:center\"><a class=\"elementor-button-link\" style=\"display:inline-block;padding:15px 32px;background:#e3c76f;color:#0a1219;border-radius:12px;font-weight:600;text-decoration:none;letter-spacing:0.02em\" href=\"http://localhost/wordpress/contact/\">Get in touch</a></p>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "6fcd5381",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<div style=\"display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;margin-top:40px;padding-top:28px;border-top:1px solid rgba(227,199,111,0.22)\"><strong style=\"color:#f7f4ef;font-size:17px;letter-spacing:0.14em;font-weight:700\">AURA</strong><span style=\"color:#94aab8;font-size:12px;line-height:1.5\">© 2026 Aura Energy · Nairobi &amp; East Africa · <a href=\"http://localhost/wordpress/contact/\" style=\"color:#e3c76f;text-decoration:none\">Contact</a></span></div>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "3c099438",
+                            "elType": "widget",
+                            "widgetType": "social-icons",
+                            "isInner": false,
+                            "settings": {
+                                "align": "left",
+                                "icon_color": "custom",
+                                "icon_primary_color": "#e3c76f",
+                                "icon_secondary_color": "#060d18",
+                                "icon_size": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "image_border_radius": {
+                                    "unit": "px",
+                                    "top": "8",
+                                    "right": "8",
+                                    "bottom": "8",
+                                    "left": "8",
+                                    "isLinked": true
+                                },
+                                "social_icon_list": [
+                                    {
+                                        "social_icon": {
+                                            "value": "fab fa-instagram",
+                                            "library": "fa-brands"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": "aria-label|Instagram - launching soon"
+                                        },
+                                        "_id": "ebfc977d"
+                                    },
+                                    {
+                                        "social_icon": {
+                                            "value": "fab fa-facebook",
+                                            "library": "fa-brands"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": "aria-label|Facebook - launching soon"
+                                        },
+                                        "_id": "81729a03"
+                                    },
+                                    {
+                                        "social_icon": {
+                                            "value": "fab fa-youtube",
+                                            "library": "fa-brands"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": "aria-label|YouTube - launching soon"
+                                        },
+                                        "_id": "97ee8ef3"
+                                    }
+                                ]
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "e1a6aa13",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"color:#94aab8;font-size:12px;line-height:1.55;margin:10px 0 0\">Social accounts are pending launch. Follow links will be activated at brand launch.</p>"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

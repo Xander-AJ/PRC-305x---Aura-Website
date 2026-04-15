@@ -1,0 +1,2753 @@
+{
+  "title": "JAK — Portfolio Home (from creative-operator)",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "background_background": "classic",
+    "background_color": "#1e1e2e"
+  },
+  "content": [
+    {
+      "id": "9c427b0b",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "gap": "no",
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "24",
+          "bottom": "56",
+          "left": "24",
+          "isLinked": false
+        },
+        "height": "min-height",
+        "custom_height": {
+          "unit": "vh",
+          "size": 68,
+          "sizes": []
+        },
+        "background_background": "gradient",
+        "background_color": "#1e1e2e",
+        "background_color_b": "#252538",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 165,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "597e5440",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "width": {
+              "unit": "%",
+              "size": 58,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "984441c5",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#cba6f7;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">Creative Production Professional — Nairobi</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "6ec4a1a1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "John",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "c3c732e8",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Alexander",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "fe69a0ae",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Kamau",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#cba6f7"
+              },
+              "elements": []
+            },
+            {
+              "id": "7d02f70c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;max-width:36rem;line-height:1.6\">Videographer, photographer, and motion-driven designer delivering premium campaigns and live productions. I concept, shoot, edit, animate, and ship polished outcomes for audiences in real time.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "9b60db13",
+              "elType": "widget",
+              "widgetType": "button",
+              "isInner": false,
+              "settings": {
+                "text": "View Featured Work",
+                "link": {
+                  "url": "#work",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "align": "left",
+                "size": "md",
+                "button_text_color": "#181825",
+                "background_color": "#cba6f7",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "c19e0393",
+              "elType": "widget",
+              "widgetType": "button",
+              "isInner": false,
+              "settings": {
+                "text": "Get in touch",
+                "link": {
+                  "url": "#contact",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "align": "left",
+                "size": "md",
+                "button_type": "outline",
+                "button_text_color": "#cdd6f4",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#45475a",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "fb73da12",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "width": {
+              "unit": "%",
+              "size": 42,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "0b0e8e03",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<div><div style=\"margin-bottom:20px\"><p style=\"color:#cba6f7;font-size:28px;font-weight:700;margin:0\">5+</p><p style=\"color:#7f849c;font-size:11px;text-transform:uppercase;letter-spacing:0.12em;margin:6px 0 0\">Years Creative Production</p></div><div style=\"margin-bottom:20px\"><p style=\"color:#cba6f7;font-size:28px;font-weight:700;margin:0\">30+</p><p style=\"color:#7f849c;font-size:11px;text-transform:uppercase;letter-spacing:0.12em;margin:6px 0 0\">Projects Delivered</p></div><div style=\"margin-bottom:20px\"><p style=\"color:#cba6f7;font-size:28px;font-weight:700;margin:0\">4</p><p style=\"color:#7f849c;font-size:11px;text-transform:uppercase;letter-spacing:0.12em;margin:6px 0 0\">Disciplines Mastered</p></div><div style=\"margin-bottom:20px\"><p style=\"color:#cba6f7;font-size:28px;font-weight:700;margin:0\">3</p><p style=\"color:#7f849c;font-size:11px;text-transform:uppercase;letter-spacing:0.12em;margin:6px 0 0\">Countries Worked In</p></div></div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e64c6d69",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "gap": "no",
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "24",
+          "bottom": "56",
+          "left": "24",
+          "isLinked": false
+        },
+        "_element_id": "work",
+        "background_background": "classic",
+        "background_color": "#1e1e2e"
+      },
+      "elements": [
+        {
+          "id": "466e0ce4",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "width": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "dc078d33",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#cba6f7;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">01 — Featured Work</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "a8de260d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Video  &  Motion",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "f1d290a0",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;max-width:40rem\">Curated final cuts across promos, recaps, and motion identity work. Built for brand clarity, audience retention, and polished delivery.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "5718d812",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ae9680be",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Work Portfolio Promo Video",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "269091d0",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:13px\">SHOWREEL · 2024 — Portfolio promo — motion, editing, and rhythm across brand and narrative work.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "86539a1f",
+              "elType": "widget",
+              "widgetType": "video",
+              "isInner": false,
+              "settings": {
+                "video_type": "hosted",
+                "insert_url": "yes",
+                "external_url": {
+                  "url": "https://res.cloudinary.com/dbajirdzj/video/upload/v1774446886/Work_Portfolio_Promo_nxypv0.mp4",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "poster": {
+                  "url": "https://res.cloudinary.com/dbajirdzj/video/upload/so_1,f_jpg,q_auto/v1774446886/Work_Portfolio_Promo_nxypv0.jpg",
+                  "id": "",
+                  "size": "",
+                  "alt": "Work Portfolio Promo Video",
+                  "source": "url"
+                },
+                "show_image_overlay": "",
+                "autoplay": "",
+                "mute": "",
+                "loop": "",
+                "controls": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "1cf8d5fe",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "3123af32",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Opener (Noya Woman)",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "d3110a58",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:13px\">OPENER · 2024 — Title opener and motion beat for the Noya Woman brand piece.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "df04fe8e",
+              "elType": "widget",
+              "widgetType": "video",
+              "isInner": false,
+              "settings": {
+                "video_type": "hosted",
+                "insert_url": "yes",
+                "external_url": {
+                  "url": "https://res.cloudinary.com/dbajirdzj/video/upload/f_mp4/v1774448124/Opener_x3zqj2.mov",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "poster": {
+                  "url": "https://res.cloudinary.com/dbajirdzj/video/upload/so_1,f_jpg,q_auto/v1774448124/Opener_x3zqj2.jpg",
+                  "id": "",
+                  "size": "",
+                  "alt": "Opener (Noya Woman)",
+                  "source": "url"
+                },
+                "show_image_overlay": "",
+                "autoplay": "",
+                "mute": "",
+                "loop": "",
+                "controls": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "523d6366",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "c4e7a8c7",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Moran Babers Promo Video",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "013ab092",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:13px\">PROMO · 2024 — High-energy promo edit — pacing, grade, and brand-forward storytelling.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "135cd128",
+              "elType": "widget",
+              "widgetType": "video",
+              "isInner": false,
+              "settings": {
+                "video_type": "hosted",
+                "insert_url": "yes",
+                "external_url": {
+                  "url": "https://res.cloudinary.com/dbajirdzj/video/upload/v1774447707/Edited_Moran_Babers_Promo_-_Final-1_t0vowm.mp4",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "poster": {
+                  "url": "https://res.cloudinary.com/dbajirdzj/video/upload/so_1,f_jpg,q_auto/v1774447707/Edited_Moran_Babers_Promo_-_Final-1_t0vowm.jpg",
+                  "id": "",
+                  "size": "",
+                  "alt": "Moran Babers Promo Video",
+                  "source": "url"
+                },
+                "show_image_overlay": "",
+                "autoplay": "",
+                "mute": "",
+                "loop": "",
+                "controls": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "7ac3bbc8",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "d14a3f8a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Montage 2 (Summit Academy)",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "f3374643",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:13px\">EVENT · 2024 — Event montage — Summit Academy highlights and energy.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "b5cb47f2",
+              "elType": "widget",
+              "widgetType": "video",
+              "isInner": false,
+              "settings": {
+                "video_type": "hosted",
+                "insert_url": "yes",
+                "external_url": {
+                  "url": "https://res.cloudinary.com/dbajirdzj/video/upload/v1774448303/Final_Montage_2_dpacvd.mp4",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "poster": {
+                  "url": "https://res.cloudinary.com/dbajirdzj/video/upload/so_1,f_jpg,q_auto/v1774448303/Final_Montage_2_dpacvd.jpg",
+                  "id": "",
+                  "size": "",
+                  "alt": "Montage 2 (Summit Academy)",
+                  "source": "url"
+                },
+                "show_image_overlay": "",
+                "autoplay": "",
+                "mute": "",
+                "loop": "",
+                "controls": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "3f227202",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "5fbf9ce5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "BIS Student Leadership Summary Video",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "6f464d16",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:13px\">EVENT · 2024 — Leadership program recap — interviews, b-roll, and clear narrative arc.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "baa4ec78",
+              "elType": "widget",
+              "widgetType": "video",
+              "isInner": false,
+              "settings": {
+                "video_type": "hosted",
+                "insert_url": "yes",
+                "external_url": {
+                  "url": "https://res.cloudinary.com/dbajirdzj/video/upload/v1774448869/Bis_Student_Leadership_Summary_Video_usqrev.mp4",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "poster": {
+                  "url": "https://res.cloudinary.com/dbajirdzj/video/upload/so_1,f_jpg,q_auto/v1774448869/Bis_Student_Leadership_Summary_Video_usqrev.jpg",
+                  "id": "",
+                  "size": "",
+                  "alt": "BIS Student Leadership Summary Video",
+                  "source": "url"
+                },
+                "show_image_overlay": "",
+                "autoplay": "",
+                "mute": "",
+                "loop": "",
+                "controls": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "4279431b",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "a14f604e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Logo Opener (Aura)",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "228b9ab4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:13px\">OPENER · 2024 — Compressed logo opener — motion identity and polished reveal.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "b9e3caf4",
+              "elType": "widget",
+              "widgetType": "video",
+              "isInner": false,
+              "settings": {
+                "video_type": "hosted",
+                "insert_url": "yes",
+                "external_url": {
+                  "url": "https://res.cloudinary.com/dbajirdzj/video/upload/v1774446822/Logo_Opener_Compressed_sgdpmb.mp4",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "poster": {
+                  "url": "https://res.cloudinary.com/dbajirdzj/video/upload/so_1,f_jpg,q_auto/v1774446822/Logo_Opener_Compressed_sgdpmb.jpg",
+                  "id": "",
+                  "size": "",
+                  "alt": "Logo Opener (Aura)",
+                  "source": "url"
+                },
+                "show_image_overlay": "",
+                "autoplay": "",
+                "mute": "",
+                "loop": "",
+                "controls": "yes"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ea61f5ac",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "gap": "no",
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "24",
+          "bottom": "56",
+          "left": "24",
+          "isLinked": false
+        },
+        "_element_id": "campaigns",
+        "background_background": "classic",
+        "background_color": "#313244"
+      },
+      "elements": [
+        {
+          "id": "e6ad98d6",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "width": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "e9d78752",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#e8a077;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">02 — Campaign Craft</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "59ca3525",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Design  &  Brand Systems",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "aa2d7abc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c\">OOH, identity, print, and social-ready layouts — shown full-frame (no cropping) in a consistent grid.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "8c0081ec",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "29161b27",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Billboard Mockups",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "f787ed10",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:12px;text-transform:uppercase\">billboard</p><p style=\"color:#7f849c\">Large-format outdoor campaign boards — full set of billboard finals.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:12px\"><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447902/KWAL_Billboard_rjetid.jpg\" alt=\"Billboard Mockups\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447900/Visa_Billboard_glsybm.jpg\" alt=\"Billboard Mockups\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447876/Boomplay_Billboard_twy8ik.jpg\" alt=\"Billboard Mockups\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447868/JTL_Billboard_ndl9lf.jpg\" alt=\"Billboard Mockups\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447846/Coldstone_Billboard_moauk1.jpg\" alt=\"Billboard Mockups\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "332afe58",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "8838792a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Digital OOH — Uber-Style Boards",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "82fd96ad",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:12px;text-transform:uppercase\">billboard</p><p style=\"color:#7f849c\">In-app and digital out-of-home campaign frames — complete Artboard series.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:12px\"><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447949/Artboard_19_cqfcvk.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447939/Artboard_18_vczyb2.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447939/Artboard_16_wqcx50.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447934/Artboard_17_kubl3q.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447932/Artboard_21_jzjfj2.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447930/Artboard_20_ltvrpv.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447929/Artboard_29_ti2lqp.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447929/Artboard_23_xfqnjs.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447926/Artboard_22_hdul4q.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447923/Artboard_28_ygxdlv.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447918/Artboard_25_cytvxy.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447917/Artboard_24_adazzp.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447915/Artboard_38_tjpblw.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447912/Artboard_33_t47it7.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447909/Artboard_34_kodica.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447902/Artboard_37_lkikug.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447900/Artboard_35_bjs9ql.png\" alt=\"Digital OOH — Uber-Style Boards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "3a30454f",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "a38f8252",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Aura — Brand & Applications",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "bd16b7e0",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:12px;text-transform:uppercase\">branding</p><p style=\"color:#7f849c\">Full identity suite: logo lockups, color systems, apparel (caps), bags, and packaging (incl. food / can-style comps).</p><div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:12px\"><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447830/Sample_1-01_svvlxu.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447825/Sample_2-02_swl7vw.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447823/Sample_1-01_yy0yfz.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447823/Sample_3-03_huxhsc.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447822/Green_Color-03_a0uqou.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447821/Monochrome-03_iqbi4q.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447820/Main_Color_-_White_t7yv0a.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447818/Sample_2-01_m6vkpv.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447817/Sample_2-02_zhrroc.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447815/Orange-Pink_Color-03_ampygk.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447784/Back_Pack_Bag_alwbfe.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447784/Sample_1_svgnqu.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447782/Black_White_Caps_igcvfn.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447781/Food_Bag_s1dgeh.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447781/Tote_Bag_d95y0z.jpg\" alt=\"Aura — Brand &amp; Applications\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "675ec11a",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "617f8480",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Book Cover System",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "3d8086b2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:12px;text-transform:uppercase\">branding</p><p style=\"color:#7f849c\">Print cover system — front, back, and full spread.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:12px\"><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774448742/Sample_1_-_Back_exqhds.jpg\" alt=\"Book Cover System\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774448736/Sample_1_-_Full_ubdsca.jpg\" alt=\"Book Cover System\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774448732/Sample_1_-_Front_v8p0wg.jpg\" alt=\"Book Cover System\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "b153bdd5",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "fd146595",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Summit Academy — Logo & E-Cards",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "0c432c0e",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:12px;text-transform:uppercase\">branding</p><p style=\"color:#7f849c\">School logo mockups and digital e-card variants for consistent brand touchpoints.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:12px\"><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774448720/Sample_3b_ev8gcx.jpg\" alt=\"Summit Academy — Logo &amp; E-Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774448718/Sample_5_rsshz8.jpg\" alt=\"Summit Academy — Logo &amp; E-Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774448713/Sample_2_zkexmm.jpg\" alt=\"Summit Academy — Logo &amp; E-Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774448714/Sample_4a_h4iz8j.jpg\" alt=\"Summit Academy — Logo &amp; E-Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774448711/Sample_6_ljijnu.jpg\" alt=\"Summit Academy — Logo &amp; E-Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447958/E-Card_Sample_1_hh0n5k.jpg\" alt=\"Summit Academy — Logo &amp; E-Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447958/E-Card_sample_2_jtjseh.jpg\" alt=\"Summit Academy — Logo &amp; E-Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447957/E-Card_sample_3_ivkxvp.jpg\" alt=\"Summit Academy — Logo &amp; E-Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "ef1b559a",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "6fb3ffcd",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Oikonomos — Logo Mockup",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "2081f298",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:12px;text-transform:uppercase\">branding</p><p style=\"color:#7f849c\">Brand mark presentation and application study.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:12px\"><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774448705/Sample_1_hh4xl2.jpg\" alt=\"Oikonomos — Logo Mockup\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "33a22009",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "2f195e37",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Kingslight — Logo Mockups",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "d8dca34b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:12px;text-transform:uppercase\">branding</p><p style=\"color:#7f849c\">Logo suite mockups and layout variants.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:12px\"><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774448698/Sample_5-01_cv3xtf.jpg\" alt=\"Kingslight — Logo Mockups\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774448698/Sample_1_l28auc.jpg\" alt=\"Kingslight — Logo Mockups\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "6e6c9816",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "aac1c8cb",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Graduation Certificate",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "98855b6c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:12px;text-transform:uppercase\">card</p><p style=\"color:#7f849c\">Formal certificate layout and typography.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:12px\"><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447965/Royal_Ephraim_Wanyoike-01_vwnqxg.jpg\" alt=\"Graduation Certificate\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "ef599a3f",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "9ede4e44",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Business & Welcome Cards",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "021de794",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:12px;text-transform:uppercase\">card</p><p style=\"color:#7f849c\">Print-forward card systems — fronts, backs, and welcome collateral.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:12px\"><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447957/Business_card_Sample_1_front_rezex0.jpg\" alt=\"Business &amp; Welcome Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447955/Business_card_Sample_1_back_veqtfb.jpg\" alt=\"Business &amp; Welcome Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447954/Business_card_Sample_2_front_qx1bsv.jpg\" alt=\"Business &amp; Welcome Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447954/Business_card_Sample_2_back_xaufpv.jpg\" alt=\"Business &amp; Welcome Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447954/Business_card_Sample_3_front_qedepn.jpg\" alt=\"Business &amp; Welcome Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447953/Business_card_Sample_3_back_r8qjbv.jpg\" alt=\"Business &amp; Welcome Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447951/Business_card_Sample_4_front_k8vxcr.jpg\" alt=\"Business &amp; Welcome Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447950/Business_card_Sample_4_back_s9s7ft.jpg\" alt=\"Business &amp; Welcome Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447958/Sample_2_welcome_card_wjk0nk.jpg\" alt=\"Business &amp; Welcome Cards\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "9d93ebe1",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "e86546aa",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Noya Woman — Social & Apparel",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "610d4955",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:12px;text-transform:uppercase\">merchandise</p><p style=\"color:#7f849c\">Social banner, campaign art, and apparel mockups for the Noya Woman line.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:12px\"><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447962/Facebook_Cover_1_Mesa_de_trabajo_1_ivyf7u.jpg\" alt=\"Noya Woman — Social &amp; Apparel\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447961/I_m_a_Noya_Woman-02_umeioe.jpg\" alt=\"Noya Woman — Social &amp; Apparel\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447961/Whole_Wise_Woman_Hoodie_Converted_-02_tpegeg.jpg\" alt=\"Noya Woman — Social &amp; Apparel\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447960/Prayer_Hoodie-02_ehrwl7.jpg\" alt=\"Noya Woman — Social &amp; Apparel\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447959/Sample_1_glgkdy.jpg\" alt=\"Noya Woman — Social &amp; Apparel\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "4279612e",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "0add8c99",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Merchandise Mockups",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "353784da",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:12px;text-transform:uppercase\">merchandise</p><p style=\"color:#7f849c\">Product and lifestyle mockup boards for campaign and pitch use.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:12px\"><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447943/Artboard_8_hw53hn.png\" alt=\"Merchandise Mockups\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447952/Artboard_15_x8cyc4.png\" alt=\"Merchandise Mockups\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447936/Artboard_7_art2n9.png\" alt=\"Merchandise Mockups\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "b595c156",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "2b1a0d99",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Pillarframe Photography",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "56499c9a",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:12px;text-transform:uppercase\">photography</p><p style=\"color:#7f849c\">Editorial photography samples and layout studies.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:12px\"><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447944/Sample_1_gfvlrf.jpg\" alt=\"Pillarframe Photography\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447951/Sample_2_jc67ld.jpg\" alt=\"Pillarframe Photography\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447943/Sample_3_vkkxp1.jpg\" alt=\"Pillarframe Photography\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447949/Sample_4_drlwmj.jpg\" alt=\"Pillarframe Photography\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/><img src=\"https://res.cloudinary.com/dbajirdzj/image/upload/v1774447981/Sample_5_kw0zb0.jpg\" alt=\"Pillarframe Photography\" style=\"width:100%;height:auto;border-radius:8px;border:1px solid #45475a\" loading=\"lazy\"/></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "4f0ea5f5",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5ae1cf86",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "gap": "no",
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "24",
+          "bottom": "56",
+          "left": "24",
+          "isLinked": false
+        },
+        "_element_id": "live",
+        "background_background": "classic",
+        "background_color": "#1e1e2e"
+      },
+      "elements": [
+        {
+          "id": "420aa4e6",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "width": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "d8821ba8",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#6fc5b4;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">03 — Live Production</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "82867530",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Real-Time Operations",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "b336df05",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c\">Live environments demand precision, speed, and calm execution under pressure. From local house-of-worship streams to multi-country regional broadcasts, delivery stays broadcast-ready.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "7f156168",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "0a300a94",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#6fc5b4;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">PRODUCTION LEAD</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "4431f8d0",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Church Livestream Production",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "14f256e8",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c\">Led weekly multi-camera livestream operations — camera switching, graphics overlay, audio mixing, and real-time troubleshooting for consistent broadcast quality.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "4753a0af",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<ul style=\"padding-left:1.2rem\"><li style=\"margin:8px 0;color:#bac2de\">Multi-camera direction and switching</li><li style=\"margin:8px 0;color:#bac2de\">Real-time graphics and lower-thirds</li><li style=\"margin:8px 0;color:#bac2de\">Audio mixing and broadcast monitoring</li><li style=\"margin:8px 0;color:#bac2de\">Team coordination under live pressure</li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "562c0e50",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "de88a20d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#6fc5b4;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">RECORDING &amp; STREAMING COORDINATOR</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "e1f40a6f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Regional Broadcast — East Africa",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "7221ee40",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c\">Coordinated recording and live streaming for a global faith-based outfit across East Africa — technical setup, camera coverage, and reliable delivery to distributed online audiences.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "c83e1022",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<ul style=\"padding-left:1.2rem\"><li style=\"margin:8px 0;color:#bac2de\">Multi-day regional event coverage</li><li style=\"margin:8px 0;color:#bac2de\">Live stream technical direction</li><li style=\"margin:8px 0;color:#bac2de\">Post-event content packaging</li><li style=\"margin:8px 0;color:#bac2de\">Cross-functional crew leadership</li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "c466da11",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1b94a86",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "gap": "no",
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "24",
+          "bottom": "56",
+          "left": "24",
+          "isLinked": false
+        },
+        "_element_id": "experience",
+        "background_background": "classic",
+        "background_color": "#313244"
+      },
+      "elements": [
+        {
+          "id": "26dfdd72",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "width": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "9b50b706",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#cba6f7;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">04 — Signal path</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "29abd073",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Career — timecode",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "588a60c8",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;line-height:1.6\">Newest first: Bachelor of Public Relations at Daystar (from May 2025), then WebMaster at Healthy U 2000 (through Oct 2025). Moringa School (DevOps and full-stack certifications, 2023–2024) sits before the creative-internship stack: Kenyans.co.ke → CTN → Philmax, with the Eikonisma contract running alongside Daystar and those placements. The diploma years (2020–2022) close the reel.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "1bee6f09",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "c647810c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">SPINE · 25·05 → …</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "1928a0c6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:13px;margin:0 0 8px\">May 2025 — present</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "6637cbbf",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Bachelor of Public Relations (in progress)",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "21421fb5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Daystar University",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cba6f7"
+              },
+              "elements": []
+            },
+            {
+              "id": "1e757570",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-style:italic;border-left:3px solid #5b9bd4;padding-left:12px\">Continuing formal study in public relations — building on a communications diploma and years of design, broadcast, and digital newsroom practice.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "100a8cff",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<ul style=\"padding-left:1.1rem\"><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Pursuing a Bachelor of Public Relations; programme began May 2025.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Extends prior Daystar diploma work (Communications &amp; Media, Electronic Media) with a PR-focused degree path.</li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "f092cf54",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "6bd1ce12",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">SPINE · 25·01 → 25·10</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "bf5360ba",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:13px;margin:0 0 8px\">January 2025 — October 2025</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "a4d1a6b3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "WebMaster",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "d39efddf",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Healthy U 2000 (e-commerce)",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cba6f7"
+              },
+              "elements": []
+            },
+            {
+              "id": "c3818676",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-style:italic;border-left:3px solid #5b9bd4;padding-left:12px\">Nairobi on-site: end-to-end web, integrations, and mobile — from AI-assisted support to POS-linked loyalty and store operations tooling.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "2501822d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<ul style=\"padding-left:1.1rem\"><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Built an AI agent/chatbot with LangGraph, LangChain, OpenAI API, Qdrant, MongoDB, and Render; sole developer alongside a data analyst — ~25% faster support responses.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Integrated AI APIs with iVend (POS) for loyalty data and personalized promotions; custom APIs and system wiring — ~15% lift in customer retention.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Shipped cross-platform staff/customer apps with React Native and Firebase; ~20% higher engagement.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Dashboards in React.js and D3.js for inventory and ops; ~15% efficiency gain on tracking workflows.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">WordPress on Siteground tuned for performance (~30% faster loads); internal tools with cross-functional teams (~10% workflow gains).</li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "46419144",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "a4d06586",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">SPINE · 23·08 → 24·09</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "c933b674",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:13px;margin:0 0 8px\">August 2023 — September 2024</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "9bb6d6a3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Certifications — DevOps & Full-Stack Software Engineering",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "d5ec528f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Moringa School · Nairobi, Kenya",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cba6f7"
+              },
+              "elements": []
+            },
+            {
+              "id": "7766886c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-style:italic;border-left:3px solid #5b9bd4;padding-left:12px\">DevOps first, then full-stack — ops discipline and shipping practice before end-to-end application development, both in Nairobi.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "ec0417e7",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<ul style=\"padding-left:1.1rem\"><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">DevOps Engineering (Aug–Nov 2023).</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Full-Stack Software Engineering (Jan–Sept 2024).</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">In-person programmes at Moringa School, Nairobi.</li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "34fda44b",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "2a1cd600",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">LAYER · 22·04 → 22·07</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "5e408b59",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:13px;margin:0 0 8px\">April 2022 — July 2022</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "41db423d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Graphic Design Intern",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "6cdc0ce5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Kenyans.co.ke",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cba6f7"
+              },
+              "elements": []
+            },
+            {
+              "id": "82f963fa",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-style:italic;border-left:3px solid #5b9bd4;padding-left:12px\">National digital desk pace: viral edits, live pressers, and campaign visuals where news breaks in hours, not days.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "8e1e2484",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<ul style=\"padding-left:1.1rem\"><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Viral news video editing; shoots and edits for social formats.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">TeamKenya and campaign concepts; photography and retouch for story packages.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Live-streaming pressers and interviews; event coverage (e.g. TSO, Waterfront Karen).</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Brainstorming for client campaigns (including Diageo); in-house interviews with public figures.</li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "1ec6725a",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "24fd2d81",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">LAYER · 21·11 → 22·03</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "eef1bb56",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:13px;margin:0 0 8px\">November 2021 — March 2022</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "805bd083",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Graphic Design Intern",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "902eb4b2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Covenant Television Network (CTN)",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cba6f7"
+              },
+              "elements": []
+            },
+            {
+              "id": "34fe7b19",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-style:italic;border-left:3px solid #5b9bd4;padding-left:12px\">Broadcast rhythm: lineups, overlays, and social artwork in a television production environment.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "6fd4ef71",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<ul style=\"padding-left:1.1rem\"><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Digital materials, image retouching, and edits for TV program lineups.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Motion graphics templates and overlays for shows and social platforms.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Voice-overs for adverts and promos; daily social creative.</li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "c6a02ba7",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "898b8146",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">LAYER · 20·11 → 21·04</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "be2ab108",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:13px;margin:0 0 8px\">November 2020 — April 2021</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "316e1c38",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Graphic Design Intern",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "c5547ddf",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Philmax Ventures Limited",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cba6f7"
+              },
+              "elements": []
+            },
+            {
+              "id": "d305660d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-style:italic;border-left:3px solid #5b9bd4;padding-left:12px\">First deep dive into transit and OOH while enrolled at Daystar: PSV, campus branding, and pitch-ready mockups at real-world scale.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "4289ba01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<ul style=\"padding-left:1.1rem\"><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Print and digital materials; sizing artwork for ubers, buses, billboards, and digital screens.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Research on high-traffic routes; coordination with advertising infrastructure partners.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Mockups for client pitches; collaboration with Creative Director and Design Manager.</li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "12644546",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "a715df54",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">SPINE · 19·11 → 22·12</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "c11c6b35",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:13px;margin:0 0 8px\">November 2019 — 2022</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "de1c1fb7",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Lead Graphic Designer & Communications Assistant (contract)",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "fc54ef2b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Eikonisma Solutions",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cba6f7"
+              },
+              "elements": []
+            },
+            {
+              "id": "41d8c1cc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-style:italic;border-left:3px solid #5b9bd4;padding-left:12px\">Contract engagement structured so Daystar coursework could continue alongside steady communications and design delivery — and so internships (Philmax, CTN, Kenyans) could layer on without leaving the role.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "2824fc3b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<ul style=\"padding-left:1.1rem\"><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Communication strategy and workplace training (CRM, conflict resolution, brand management).</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Graphic content, illustrations, and infographics from conception through delivery.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Brand consistency across marketing work; liaison between marketing and design for deadlines.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Contract format made concurrent study and internship blocks workable across the same period.</li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "f0915f79",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "a5359d1d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">SPINE · 20·01 → 22·12</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "e5c634a3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#9399b2;font-size:13px;margin:0 0 8px\">2020 — 2022</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "13e53f4c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Diploma, Communications & Media (Electronic Media)",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "064c0d97",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Daystar University",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#cba6f7"
+              },
+              "elements": []
+            },
+            {
+              "id": "4f0c77f4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c;font-style:italic;border-left:3px solid #5b9bd4;padding-left:12px\">Diploma years overlapping the Eikonisma contract and the Philmax → CTN → Kenyans internship arc — formal media theory alongside paid practice.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "c6f92237",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<ul style=\"padding-left:1.1rem\"><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Communications and media studies with major in electronic media.</li><li style=\"margin:6px 0;color:#bac2de;font-size:13px\">Completed alongside contract work and sequential internships; foundation before the 2025 Public Relations degree.</li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "7c736b8c",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#45475a",
+                "weight": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b018af45",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "gap": "no",
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "24",
+          "bottom": "56",
+          "left": "24",
+          "isLinked": false
+        },
+        "_element_id": "edge",
+        "background_background": "classic",
+        "background_color": "#1e1e2e"
+      },
+      "elements": [
+        {
+          "id": "d52a895f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "width": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "a473326c",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "gap": "default",
+                "structure": "10",
+                "background_background": "classic",
+                "background_color": "#1e1e2e"
+              },
+              "elements": [
+                {
+                  "id": "660c2e24",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 100,
+                    "width": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "94f9fcfe",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "editor": "<p style=\"color:#5b9bd4;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">05 — The Hybrid Advantage</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bf09907c",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "title": "Creative × Technical × Strategic",
+                        "header_size": "h2",
+                        "align": "left",
+                        "title_color": "#cdd6f4"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "de302190",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "editor": "<p style=\"color:#7f849c;text-align:center;max-width:40rem;margin:0 auto\">More than an editor or designer alone: a hybrid builder who combines creative execution, technical systems, and strategic communication for stronger campaign outcomes.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "08297a7a",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "gap": "default",
+                "structure": "333",
+                "background_background": "classic",
+                "background_color": "#1e1e2e"
+              },
+              "elements": [
+                {
+                  "id": "0ab58522",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 100,
+                    "width": {
+                      "unit": "%",
+                      "size": 33,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "470a7863",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "title": "Creative Production",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#cdd6f4"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "5af178ee",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "editor": "<p style=\"color:#7f849c;font-size:14px\">End-to-end content creation — from concept to final delivery across video, motion, design, and photography.</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "74bad5db",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "editor": "<div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Video Production &amp; Editing</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Motion Graphics &amp; Animation</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Graphic Design &amp; Brand Identity</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Photography &amp; Art Direction</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Color Grading &amp; Post-Production</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Storyboarding &amp; Concept Development</span></div></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "2c8de97c",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 100,
+                    "width": {
+                      "unit": "%",
+                      "size": 33,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "66072557",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "title": "Technical Systems",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#cdd6f4"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "88c158aa",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "editor": "<p style=\"color:#7f849c;font-size:14px\">Modern development, cloud infrastructure, and production systems fluency — bridging creative and engineering.</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ce4be8a0",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "editor": "<div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Adobe Creative Suite</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">DaVinci Resolve</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">After Effects &amp; Cinema 4D</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Web Development (React, TypeScript)</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">DevOps &amp; Cloud Infrastructure</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Livestream Production Systems</span></div></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "0f8f97f4",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 100,
+                    "width": {
+                      "unit": "%",
+                      "size": 33,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "c7374186",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "title": "Strategic Communication",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#cdd6f4"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "443a2e4d",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "editor": "<p style=\"color:#7f849c;font-size:14px\">PR studies background applied to brand positioning, stakeholder management, and campaign strategy.</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "46386a7b",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "editor": "<div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Public Relations &amp; Communications</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Brand Strategy &amp; Positioning</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Content Calendar Management</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Stakeholder Presentation</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Cross-functional Collaboration</span></div><div style=\"display:flex;gap:10px;align-items:flex-start;margin:8px 0\"><span style=\"width:6px;height:6px;border-radius:99px;background:#cba6f7;margin-top:6px;flex-shrink:0\"></span><span style=\"color:#bac2de;font-size:13px\">Campaign Planning &amp; Execution</span></div></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1867ae60",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "gap": "no",
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "24",
+          "bottom": "56",
+          "left": "24",
+          "isLinked": false
+        },
+        "_element_id": "contact",
+        "background_background": "classic",
+        "background_color": "#1e1e2e"
+      },
+      "elements": [
+        {
+          "id": "72249586",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "width": {
+              "unit": "%",
+              "size": 60,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "4f4733ae",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#cba6f7;font-size:12px;letter-spacing:0.22em;text-transform:uppercase;font-family:monospace;margin:0 0 12px\">06 — Let's Work</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "49d67f7f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Let's build your next high-impact production.",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#cdd6f4"
+              },
+              "elements": []
+            },
+            {
+              "id": "8f93a5ec",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p style=\"color:#7f849c\">Open to videography and photography, social media management, and motion-led design roles. Available for positions that blend creative production, live operations, and strategic communication.</p><div style=\"margin:16px 0\"><span style=\"display:inline-block;margin:4px;padding:8px 16px;border-radius:999px;border:1px solid rgba(91,155,212,0.35);background:rgba(91,155,212,0.12);color:#5b9bd4;font-size:12px\">Videographer / Photographer</span><span style=\"display:inline-block;margin:4px;padding:8px 16px;border-radius:999px;border:1px solid rgba(91,155,212,0.35);background:rgba(91,155,212,0.12);color:#5b9bd4;font-size:12px\">Social Media Manager</span><span style=\"display:inline-block;margin:4px;padding:8px 16px;border-radius:999px;border:1px solid rgba(91,155,212,0.35);background:rgba(91,155,212,0.12);color:#5b9bd4;font-size:12px\">Graphic Designer (Motion)</span></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "3e719f9e",
+              "elType": "widget",
+              "widgetType": "button",
+              "isInner": false,
+              "settings": {
+                "text": "Start a conversation",
+                "link": {
+                  "url": "mailto:mojo.alexander3@gmail.com",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "align": "left",
+                "size": "md",
+                "button_text_color": "#181825",
+                "background_color": "#cba6f7",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "5336d036",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<div style=\"display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-top:48px;padding-top:24px;border-top:1px solid #45475a\"><strong style=\"color:#cdd6f4;font-size:18px\">JAK<span style=\"color:#cba6f7\">.</span></strong><span style=\"color:#7f849c;font-size:12px\">© John Alexander Kamau. Built with precision.</span></div>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "2c90f2bc",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "width": {
+              "unit": "%",
+              "size": 40,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "1c152ce9",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<div style=\"border:1px solid #45475a;border-radius:12px;padding:16px;margin-bottom:12px;background:#313244\"><p style=\"color:#9399b2;font-size:11px;text-transform:uppercase;margin:0 0 4px\">Email</p><a href=\"mailto:mojo.alexander3@gmail.com\" style=\"color:#cba6f7\">mojo.alexander3@gmail.com</a></div><div style=\"border:1px solid #45475a;border-radius:12px;padding:16px;margin-bottom:12px;background:#313244\"><p style=\"color:#9399b2;font-size:11px;text-transform:uppercase;margin:0 0 4px\">LinkedIn</p><a href=\"https://www.linkedin.com/in/john-alexander-kamau-301821a5/\" style=\"color:#5b9bd4\">John Alexander Kamau</a></div><div style=\"border:1px solid #45475a;border-radius:12px;padding:16px;background:#313244\"><p style=\"color:#9399b2;font-size:11px;text-transform:uppercase;margin:0 0 4px\">Location</p><p style=\"color:#cdd6f4;margin:0\">Nairobi, Kenya</p></div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

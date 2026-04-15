@@ -1,0 +1,449 @@
+{
+    "title": "Aura — Products",
+    "type": "page",
+    "version": "0.4",
+    "page_settings": {
+        "background_background": "classic",
+        "background_color": "#060d18"
+    },
+    "content": [
+        {
+            "id": "ed445189",
+            "elType": "section",
+            "isInner": false,
+            "settings": {
+                "layout": "boxed",
+                "content_width": {
+                    "unit": "px",
+                    "size": 1200,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "56",
+                    "right": "24",
+                    "bottom": "24",
+                    "left": "24",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#060d18"
+            },
+            "elements": [
+                {
+                    "id": "f0683fc8",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "f1fa48e8",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "The lineup",
+                                "header_size": "h1",
+                                "title_color": "#f7f4ef"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "d430c207",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"color:#94aab8;max-width:44rem;line-height:1.65;font-size:16px\">Three core SKUs anchor the range—each with a clear job: sharpen the mind, restore fluid balance, or wind down without checking out. Below is our hero can plus the carry systems we deploy for retail activations and sampling.</p>"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bf46634b",
+            "elType": "section",
+            "isInner": false,
+            "settings": {
+                "layout": "boxed",
+                "content_width": {
+                    "unit": "px",
+                    "size": 1200,
+                    "sizes": []
+                },
+                "structure": "20",
+                "padding": {
+                    "unit": "px",
+                    "top": "16",
+                    "right": "24",
+                    "bottom": "40",
+                    "left": "24",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#0c1a2c"
+            },
+            "elements": [
+                {
+                    "id": "1562f656",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 50
+                    },
+                    "elements": [
+                        {
+                            "id": "dd8cfed0",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447782/Black_White_Caps_igcvfn.jpg",
+                                    "id": ""
+                                },
+                                "image_size": "full",
+                                "lazyload": "yes",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "14",
+                                    "right": "14",
+                                    "bottom": "14",
+                                    "left": "14",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(227,199,111,0.38)",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 14,
+                                    "blur": 28,
+                                    "spread": 0,
+                                    "color": "rgba(6,13,24,0.35)"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "409a0446",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 50
+                    },
+                    "elements": [
+                        {
+                            "id": "fc0b26ad",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Aura Original",
+                                "header_size": "h2",
+                                "title_color": "#e3c76f"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "2d6bb24e",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"color:#c8d6df;line-height:1.65;margin-bottom:12px\">The signature can: balanced, sessionable, and sharp enough for morning briefs.</p><ul style=\"color:#94aab8;line-height:1.85\"><li>330ml slim aluminum · refined carbonation</li><li>Reduced sugar · no artificial colors</li><li>Caffeine from green coffee &amp; cold-brewed tea</li><li>Lime, sea salt, and a clean mineral finish</li></ul>"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "89e4652c",
+            "elType": "section",
+            "isInner": false,
+            "settings": {
+                "layout": "boxed",
+                "content_width": {
+                    "unit": "px",
+                    "size": 1200,
+                    "sizes": []
+                },
+                "structure": "20",
+                "padding": {
+                    "unit": "px",
+                    "top": "24",
+                    "right": "24",
+                    "bottom": "40",
+                    "left": "24",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#060d18"
+            },
+            "elements": [
+                {
+                    "id": "7f4e51d6",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 50
+                    },
+                    "elements": [
+                        {
+                            "id": "ff274779",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "isInner": false,
+                            "settings": {
+                                "title": "Carry & activation",
+                                "header_size": "h2",
+                                "title_color": "#e3c76f"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "778e7d14",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"color:#c8d6df;line-height:1.65\">Premium backpacks, totes, and insulated carriers for field teams, festivals, and retail launches—designed to look as considered as what is inside the can.</p>"
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "7e62c75e",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 50
+                    },
+                    "elements": [
+                        {
+                            "id": "73b47aee",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447781/Food_Bag_s1dgeh.jpg",
+                                    "id": ""
+                                },
+                                "image_size": "full",
+                                "lazyload": "yes",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "14",
+                                    "right": "14",
+                                    "bottom": "14",
+                                    "left": "14",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(227,199,111,0.38)",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 14,
+                                    "blur": 28,
+                                    "spread": 0,
+                                    "color": "rgba(6,13,24,0.35)"
+                                }
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "78eea58c",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "isInner": false,
+                            "settings": {
+                                "image": {
+                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447781/Tote_Bag_d95y0z.jpg",
+                                    "id": ""
+                                },
+                                "image_size": "full",
+                                "lazyload": "yes",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": "14",
+                                    "right": "14",
+                                    "bottom": "14",
+                                    "left": "14",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(227,199,111,0.38)",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 14,
+                                    "blur": 28,
+                                    "spread": 0,
+                                    "color": "rgba(6,13,24,0.35)"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d23d0e97",
+            "elType": "section",
+            "isInner": false,
+            "settings": {
+                "layout": "boxed",
+                "content_width": {
+                    "unit": "px",
+                    "size": 1200,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "32",
+                    "right": "24",
+                    "bottom": "64",
+                    "left": "24",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#0c1a2c"
+            },
+            "elements": [
+                {
+                    "id": "bcf0dd1a",
+                    "elType": "column",
+                    "isInner": false,
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "6c656df4",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<div style=\"display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;margin-top:40px;padding-top:28px;border-top:1px solid rgba(227,199,111,0.22)\"><strong style=\"color:#f7f4ef;font-size:17px;letter-spacing:0.14em;font-weight:700\">AURA</strong><span style=\"color:#94aab8;font-size:12px;line-height:1.5\">© 2026 Aura Energy · Nairobi &amp; East Africa · <a href=\"http://localhost/wordpress/contact/\" style=\"color:#e3c76f;text-decoration:none\">Contact</a></span></div>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "3c099438",
+                            "elType": "widget",
+                            "widgetType": "social-icons",
+                            "isInner": false,
+                            "settings": {
+                                "align": "left",
+                                "icon_color": "custom",
+                                "icon_primary_color": "#e3c76f",
+                                "icon_secondary_color": "#060d18",
+                                "icon_size": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "image_border_radius": {
+                                    "unit": "px",
+                                    "top": "8",
+                                    "right": "8",
+                                    "bottom": "8",
+                                    "left": "8",
+                                    "isLinked": true
+                                },
+                                "social_icon_list": [
+                                    {
+                                        "social_icon": {
+                                            "value": "fab fa-instagram",
+                                            "library": "fa-brands"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": "aria-label|Instagram - launching soon"
+                                        },
+                                        "_id": "ebfc977d"
+                                    },
+                                    {
+                                        "social_icon": {
+                                            "value": "fab fa-facebook",
+                                            "library": "fa-brands"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": "aria-label|Facebook - launching soon"
+                                        },
+                                        "_id": "81729a03"
+                                    },
+                                    {
+                                        "social_icon": {
+                                            "value": "fab fa-youtube",
+                                            "library": "fa-brands"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": "aria-label|YouTube - launching soon"
+                                        },
+                                        "_id": "97ee8ef3"
+                                    }
+                                ]
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "39ca5a12",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "isInner": false,
+                            "settings": {
+                                "editor": "<p style=\"color:#94aab8;font-size:12px;line-height:1.55;margin:10px 0 0\">Social accounts are pending launch. Follow links will be activated at brand launch.</p>"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

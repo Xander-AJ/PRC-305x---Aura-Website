@@ -1,0 +1,30 @@
+# Keep repository submission-focused and lightweight.
+# Ignore all files by default, then opt-in only what is needed.
+*
+.*
+
+# Ignore IDE/system files explicitly
+.DS_Store
+.cursor/
+.idea/
+.vscode/
+
+# Keep git metadata
+!.gitignore
+!.gitattributes
+
+# Submission artifacts
+!README.md
+!STYLE_GUIDE.md
+!elementor-templates/
+!elementor-templates/**
+!scripts/
+!scripts/**
+!PRC305-Aura-Final-Presentation.pptx
+!PRC305-Aura-Project-Proposal.pptx
+CURSOR_MASTER_PROMPT.md
+
+# Optional backup and local archive remain ignored
+PRC305-Aura-Final-Presentation.backup.pptx
+wp-content copy.zip
+
