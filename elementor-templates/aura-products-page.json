@@ -103,7 +103,7 @@
                             "isInner": false,
                             "settings": {
                                 "image": {
-                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447782/Black_White_Caps_igcvfn.jpg",
+                                    "url": "http://localhost/wordpress/wp-content/uploads/aura-assets/Black_White_Caps_igcvfn.jpg",
                                     "id": ""
                                 },
                                 "image_size": "full",
@@ -244,7 +244,7 @@
                             "isInner": false,
                             "settings": {
                                 "image": {
-                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447781/Food_Bag_s1dgeh.jpg",
+                                    "url": "http://localhost/wordpress/wp-content/uploads/aura-assets/Food_Bag_s1dgeh.jpg",
                                     "id": ""
                                 },
                                 "image_size": "full",
@@ -285,7 +285,7 @@
                             "isInner": false,
                             "settings": {
                                 "image": {
-                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447781/Tote_Bag_d95y0z.jpg",
+                                    "url": "http://localhost/wordpress/wp-content/uploads/aura-assets/Tote_Bag_d95y0z.jpg",
                                     "id": ""
                                 },
                                 "image_size": "full",

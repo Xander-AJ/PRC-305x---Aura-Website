@@ -39,12 +39,12 @@ function aura_cloudinary_urls(): array {
 		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447825/Sample_2-02_swl7vw.jpg',
 		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447823/Sample_1-01_yy0yfz.jpg',
 		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447823/Sample_3-03_huxhsc.jpg',
-		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447822/Green_Color-03_a0uqou.jpg',
-		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447821/Monochrome-03_iqbi4q.jpg',
-		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447820/Main_Color_-_White_t7yv0a.jpg',
 		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447818/Sample_2-01_m6vkpv.jpg',
 		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447817/Sample_2-02_zhrroc.jpg',
-		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447815/Orange-Pink_Color-03_ampygk.jpg',
+		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447784/Sample_1_svgnqu.jpg',
+		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447818/Sample_2-01_m6vkpv.jpg',
+		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447817/Sample_2-02_zhrroc.jpg',
+		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447782/Black_White_Caps_igcvfn.jpg',
 		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447784/Back_Pack_Bag_alwbfe.jpg',
 		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447784/Sample_1_svgnqu.jpg',
 		'https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447782/Black_White_Caps_igcvfn.jpg',
@@ -55,6 +55,55 @@ function aura_cloudinary_urls(): array {
 
 function aura_eid( string $seed ): string {
 	return substr( md5( 'aura-' . $seed ), 0, 8 );
+}
+
+/**
+ * Cache remote images locally so page rendering is not dependent on external availability.
+ *
+ * @param string[] $urls
+ * @return string[]
+ */
+function aura_cache_images_locally( array $urls ): array {
+	$upload = wp_upload_dir();
+	if ( empty( $upload['basedir'] ) || empty( $upload['baseurl'] ) ) {
+		return $urls;
+	}
+
+	$dir = trailingslashit( $upload['basedir'] ) . 'aura-assets';
+	if ( ! file_exists( $dir ) ) {
+		wp_mkdir_p( $dir );
+	}
+
+	$out = [];
+	foreach ( $urls as $u ) {
+		$path     = parse_url( $u, PHP_URL_PATH );
+		$basename = $path ? basename( $path ) : '';
+		if ( '' === $basename ) {
+			$out[] = $u;
+			continue;
+		}
+		$target = trailingslashit( $dir ) . $basename;
+		if ( ! file_exists( $target ) || filesize( $target ) < 1024 ) {
+			$resp = wp_remote_get(
+				$u,
+				[
+					'timeout' => 30,
+				]
+			);
+			if ( ! is_wp_error( $resp ) && 200 === (int) wp_remote_retrieve_response_code( $resp ) ) {
+				$body = wp_remote_retrieve_body( $resp );
+				if ( ! empty( $body ) ) {
+					file_put_contents( $target, $body );
+				}
+			}
+		}
+		if ( file_exists( $target ) && filesize( $target ) > 1024 ) {
+			$out[] = trailingslashit( $upload['baseurl'] ) . 'aura-assets/' . rawurlencode( $basename );
+		} else {
+			$out[] = $u;
+		}
+	}
+	return $out;
 }
 
 function aura_save_elementor_page( int $post_id, array $document ): void {
@@ -71,6 +120,7 @@ function aura_save_elementor_page( int $post_id, array $document ): void {
 	}
 	delete_post_meta( $post_id, '_elementor_css' );
 	delete_post_meta( $post_id, '_elementor_page_assets' );
+	delete_post_meta( $post_id, '_elementor_element_cache' );
 	echo "Updated Elementor data for post {$post_id}\n";
 }
 
@@ -239,27 +289,28 @@ function aura_update_kit(): void {
 	$settings['site_name']         = 'Aura';
 	$settings['site_description']  = 'Premium functional beverages — clean focus, steady hydration, East African energy.';
 	$settings['system_colors']     = [
-		[ '_id' => 'primary', 'title' => 'Primary', 'color' => '#e3c76f' ],
-		[ '_id' => 'secondary', 'title' => 'Secondary', 'color' => '#2dd4bf' ],
-		[ '_id' => 'text', 'title' => 'Text', 'color' => '#c8d6df' ],
-		[ '_id' => 'accent', 'title' => 'Accent', 'color' => '#5fd4c4' ],
+		[ '_id' => 'primary', 'title' => 'Primary', 'color' => '#cba6f7' ],
+		[ '_id' => 'secondary', 'title' => 'Secondary', 'color' => '#5b9bd4' ],
+		[ '_id' => 'text', 'title' => 'Text', 'color' => '#cdd6f4' ],
+		[ '_id' => 'accent', 'title' => 'Accent', 'color' => '#b4befe' ],
 	];
 	$settings['custom_colors']     = [
-		[ '_id' => 'aura_navy', 'title' => 'Navy Deep', 'color' => '#060d18' ],
-		[ '_id' => 'aura_teal', 'title' => 'Teal Deep', 'color' => '#0f4a45' ],
-		[ '_id' => 'aura_gold', 'title' => 'Champagne Gold', 'color' => '#e3c76f' ],
-		[ '_id' => 'aura_muted', 'title' => 'Muted Blue-Gray', 'color' => '#94aab8' ],
-		[ '_id' => 'aura_card', 'title' => 'Card / Panel', 'color' => '#152b40' ],
+		[ '_id' => 'aura_bg', 'title' => 'Background', 'color' => '#1e1e2e' ],
+		[ '_id' => 'aura_surface', 'title' => 'Surface', 'color' => '#313244' ],
+		[ '_id' => 'aura_surface_2', 'title' => 'Surface 2', 'color' => '#45475a' ],
+		[ '_id' => 'aura_mauve', 'title' => 'Mauve', 'color' => '#cba6f7' ],
+		[ '_id' => 'aura_tokyo', 'title' => 'Tokyo Blue', 'color' => '#5b9bd4' ],
+		[ '_id' => 'aura_muted', 'title' => 'Muted Text', 'color' => '#7f849c' ],
 	];
 	$font_stack = [
 		'typography_typography'       => 'custom',
-		'typography_font_family'    => 'Outfit',
-		'typography_font_weight'    => '600',
+		'typography_font_family'      => 'JetBrains Mono',
+		'typography_font_weight'      => '700',
 	];
 	$body_stack = [
 		'typography_typography'       => 'custom',
-		'typography_font_family'    => 'DM Sans',
-		'typography_font_weight'    => '400',
+		'typography_font_family'      => 'JetBrains Mono',
+		'typography_font_weight'      => '400',
 	];
 	$settings['system_typography'] = [
 		array_merge( [ '_id' => 'primary', 'title' => 'Primary' ], $font_stack ),
@@ -313,7 +364,7 @@ function aura_write_template_file( string $name, array $document ): void {
 
 // --- Build Elementor documents (version 0.4 pattern, same as jak-portfolio-home-page.json) ---
 $u   = home_url( '/' );
-$img = aura_cloudinary_urls();
+$img = aura_cache_images_locally( aura_cloudinary_urls() );
 
 // Premium palette: deep navy, jewel teal, champagne gold, warm cream body copy.
 $aura = [
@@ -426,18 +477,32 @@ function aura_btn( string $seed, string $text, string $url, string $bg = '#e3c76
 
 function aura_sitewide_css(): string {
 	return <<<'CSS'
-/* PRC 305 Aura polish pass: responsiveness, typography, visual consistency, nav clarity */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap");
+
+/* PRC 305 Aura premium polish: visual hierarchy, color contrast, premium structure */
 :root {
-	--aura-bg: #060d18;
-	--aura-body: #c8d6df;
-	--aura-muted: #94aab8;
-	--aura-gold: #e3c76f;
-	--aura-card-radius: 14px;
+	--aura-bg: #1e1e2e;
+	--aura-surface: #232436;
+	--aura-surface-2: #2b2d45;
+	--aura-card: #313244;
+	--aura-border: #45475a;
+	--aura-body: #cdd6f4;
+	--aura-muted: #7f849c;
+	--aura-title: #eef2ff;
+	--aura-mauve: #cba6f7;
+	--aura-lavender: #b4befe;
+	--aura-tokyo: #5b9bd4;
+	--aura-card-radius: 16px;
 	--aura-space-mobile: 20px;
+	--aura-shadow: 0 14px 36px rgba(10, 12, 26, 0.35);
 }
 
 body {
-	background: var(--aura-bg);
+	font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	background:
+		radial-gradient(1200px 600px at 5% -5%, rgba(203, 166, 247, 0.14), transparent 55%),
+		radial-gradient(900px 500px at 95% 8%, rgba(91, 155, 212, 0.16), transparent 58%),
+		var(--aura-bg);
 	color: var(--aura-body);
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -448,14 +513,25 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-	line-height: 1.2;
-	letter-spacing: 0.01em;
+h6,
+.entry-title,
+.elementor-heading-title {
+	color: var(--aura-title);
+	font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	font-weight: 700;
+	line-height: 1.16;
+	letter-spacing: -0.01em;
+}
+
+h1,
+.entry-title {
+	font-size: clamp(2rem, 4.6vw, 3rem);
 }
 
 p,
 li {
-	line-height: 1.65;
+	line-height: 1.72;
+	color: var(--aura-body);
 }
 
 .elementor-section {
@@ -463,39 +539,124 @@ li {
 	padding-right: var(--aura-space-mobile);
 }
 
+.site-header,
+.main-header-bar {
+	background: rgba(23, 24, 37, 0.9) !important;
+	border-bottom: 1px solid rgba(180, 190, 254, 0.14);
+	backdrop-filter: blur(12px);
+}
+
+/* Remove Astra-injected page titles for seamless Elementor layouts */
+.entry-header,
+.ast-archive-description,
+.page-header {
+	display: none !important;
+}
+
+.site-content .ast-container {
+	max-width: 100% !important;
+	padding-top: 0 !important;
+}
+
+.site-branding .site-title a {
+	font-size: 2rem;
+	color: var(--aura-mauve) !important;
+	letter-spacing: -0.01em;
+}
+
+.site-branding .site-description {
+	color: var(--aura-muted) !important;
+}
+
+.entry-content > .elementor {
+	max-width: 1260px;
+	margin-inline: auto;
+}
+
+.elementor-widget-heading h2 {
+	font-size: clamp(1.8rem, 3.3vw, 2.6rem);
+}
+
+.elementor-widget-heading h3 {
+	font-size: clamp(1.25rem, 2.3vw, 1.7rem);
+}
+
+.elementor-widget-text-editor p {
+	max-width: 68ch;
+}
+
 .elementor-widget-image img {
 	border-radius: var(--aura-card-radius);
+	border: 1px solid rgba(180, 190, 254, 0.18);
+	box-shadow: var(--aura-shadow);
+	background: linear-gradient(140deg, rgba(203, 166, 247, 0.14), rgba(91, 155, 212, 0.12));
+	min-height: 180px;
+	object-fit: cover;
 }
 
 .elementor-button,
 .elementor-button-link {
-	border-radius: 12px !important;
-	padding: 12px 22px !important;
-	font-weight: 600 !important;
+	border-radius: 999px !important;
+	padding: 13px 24px !important;
+	font-weight: 700 !important;
 	line-height: 1.2 !important;
-	box-shadow: 0 10px 24px rgba(6, 13, 24, 0.25);
+	background: linear-gradient(135deg, var(--aura-mauve), var(--aura-lavender)) !important;
+	color: #1e1e2e !important;
+	border: 1px solid rgba(255, 255, 255, 0.15) !important;
+	box-shadow: 0 12px 24px rgba(111, 130, 220, 0.2);
+	text-transform: none;
 }
 
 .elementor-button:hover,
 .elementor-button-link:hover {
-	transform: translateY(-1px);
-	transition: transform 180ms ease, filter 180ms ease;
-	filter: brightness(1.03);
+	transform: translateY(-2px);
+	transition: transform 180ms ease, filter 180ms ease, box-shadow 180ms ease;
+	filter: brightness(1.04);
+	box-shadow: 0 16px 30px rgba(111, 130, 220, 0.28);
 }
 
 /* Navigation clarity + active page state */
+.main-header-menu .menu-item > a {
+	color: var(--aura-body) !important;
+	font-weight: 500;
+}
+
 .main-header-menu .menu-item.current-menu-item > a,
 .main-header-menu .menu-item.current_page_item > a {
-	color: var(--aura-gold) !important;
+	color: var(--aura-mauve) !important;
 	font-weight: 700 !important;
 }
 
 /* Give the final menu item a CTA treatment (usually Contact) */
 .main-header-menu .menu-item:last-child > a {
-	background: var(--aura-gold);
-	color: #0a1219 !important;
+	background: linear-gradient(135deg, var(--aura-mauve), var(--aura-lavender));
+	color: #1e1e2e !important;
 	border-radius: 999px;
-	padding: 9px 16px;
+	padding: 9px 16px !important;
+}
+
+/* Professional section rhythm */
+.elementor-section.elementor-top-section {
+	margin-bottom: 20px;
+}
+
+.elementor-section.elementor-top-section > .elementor-container {
+	border-radius: 18px;
+}
+
+/* Form visual polish */
+.metform-form-main-wrapper input,
+.metform-form-main-wrapper textarea {
+	background: #f5f7ff !important;
+	color: #1d2233 !important;
+	border: 1px solid #c9d1f4 !important;
+	border-radius: 12px !important;
+	padding: 13px 14px !important;
+}
+
+.metform-form-main-wrapper input::placeholder,
+.metform-form-main-wrapper textarea::placeholder {
+	color: #6b7280 !important;
 }
 
 @media (max-width: 1024px) {
@@ -521,6 +682,33 @@ li {
 	.elementor-widget-image {
 		margin-bottom: 14px !important;
 	}
+	.main-header-menu .menu-item:last-child > a {
+		display: inline-block;
+	}
+	.entry-content > .elementor {
+		max-width: 100%;
+	}
+}
+
+/* Astra mobile menu reliability + visibility */
+@media (max-width: 921px) {
+	.ast-header-break-point .main-navigation ul.main-header-menu,
+	.ast-header-break-point .main-header-menu {
+		background: #1f2233 !important;
+		border-top: 1px solid rgba(180, 190, 254, 0.18);
+	}
+	.ast-header-break-point .main-navigation ul.main-header-menu .menu-item > a,
+	.ast-header-break-point .main-header-menu .menu-item > a {
+		color: var(--aura-body) !important;
+	}
+	.ast-header-break-point .main-header-menu .menu-item:last-child > a {
+		background: rgba(203, 166, 247, 0.16) !important;
+		color: var(--aura-mauve) !important;
+		border-radius: 10px !important;
+	}
+	.ast-mobile-menu-trigger-minimal {
+		color: var(--aura-body) !important;
+	}
 }
 
 /* Wider browser compatibility for focus visibility */
@@ -528,7 +716,7 @@ a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
-	outline: 2px solid var(--aura-gold);
+	outline: 2px solid var(--aura-mauve);
 	outline-offset: 2px;
 }
 CSS;

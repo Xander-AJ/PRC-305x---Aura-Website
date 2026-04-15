@@ -201,7 +201,7 @@
                             "isInner": false,
                             "settings": {
                                 "image": {
-                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447820/Main_Color_-_White_t7yv0a.jpg",
+                                    "url": "http://localhost/wordpress/wp-content/uploads/aura-assets/Sample_1_svgnqu.jpg",
                                     "id": ""
                                 },
                                 "image_size": "full",
@@ -357,7 +357,7 @@
                             "isInner": false,
                             "settings": {
                                 "image": {
-                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447822/Green_Color-03_a0uqou.jpg",
+                                    "url": "http://localhost/wordpress/wp-content/uploads/aura-assets/Sample_2-01_m6vkpv.jpg",
                                     "id": ""
                                 },
                                 "image_size": "full",
@@ -434,7 +434,7 @@
                             "isInner": false,
                             "settings": {
                                 "image": {
-                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447784/Back_Pack_Bag_alwbfe.jpg",
+                                    "url": "http://localhost/wordpress/wp-content/uploads/aura-assets/Back_Pack_Bag_alwbfe.jpg",
                                     "id": ""
                                 },
                                 "image_size": "full",
@@ -507,7 +507,7 @@
                             "isInner": false,
                             "settings": {
                                 "image": {
-                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447815/Orange-Pink_Color-03_ampygk.jpg",
+                                    "url": "http://localhost/wordpress/wp-content/uploads/aura-assets/Black_White_Caps_igcvfn.jpg",
                                     "id": ""
                                 },
                                 "image_size": "full",
@@ -580,7 +580,7 @@
                             "isInner": false,
                             "settings": {
                                 "image": {
-                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447784/Sample_1_svgnqu.jpg",
+                                    "url": "http://localhost/wordpress/wp-content/uploads/aura-assets/Sample_1_svgnqu.jpg",
                                     "id": ""
                                 },
                                 "image_size": "full",
@@ -734,7 +734,7 @@
                             "isInner": false,
                             "settings": {
                                 "image": {
-                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447830/Sample_1-01_svvlxu.jpg",
+                                    "url": "http://localhost/wordpress/wp-content/uploads/aura-assets/Sample_1-01_svvlxu.jpg",
                                     "id": ""
                                 },
                                 "image_size": "full",
@@ -785,7 +785,7 @@
                             "isInner": false,
                             "settings": {
                                 "image": {
-                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447825/Sample_2-02_swl7vw.jpg",
+                                    "url": "http://localhost/wordpress/wp-content/uploads/aura-assets/Sample_2-02_swl7vw.jpg",
                                     "id": ""
                                 },
                                 "image_size": "full",
@@ -836,7 +836,7 @@
                             "isInner": false,
                             "settings": {
                                 "image": {
-                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447823/Sample_1-01_yy0yfz.jpg",
+                                    "url": "http://localhost/wordpress/wp-content/uploads/aura-assets/Sample_1-01_yy0yfz.jpg",
                                     "id": ""
                                 },
                                 "image_size": "full",
@@ -887,7 +887,7 @@
                             "isInner": false,
                             "settings": {
                                 "image": {
-                                    "url": "https://res.cloudinary.com/dbajirdzj/image/upload/q_auto/f_auto/v1774447823/Sample_3-03_huxhsc.jpg",
+                                    "url": "http://localhost/wordpress/wp-content/uploads/aura-assets/Sample_3-03_huxhsc.jpg",
                                     "id": ""
                                 },
                                 "image_size": "full",
