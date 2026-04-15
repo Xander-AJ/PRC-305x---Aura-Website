@@ -406,17 +406,17 @@ $social = [
 		'social_icon_list'     => [
 			[
 				'social_icon' => [ 'value' => 'fab fa-instagram', 'library' => 'fa-brands' ],
-				'link'        => [ 'url' => '#', 'is_external' => '', 'nofollow' => '', 'custom_attributes' => 'aria-label|Instagram - launching soon' ],
+				'link'        => [ 'url' => 'https://www.instagram.com/', 'is_external' => 'true', 'nofollow' => '', 'custom_attributes' => 'aria-label|Instagram' ],
 				'_id'         => aura_eid( 'ig' ),
 			],
 			[
 				'social_icon' => [ 'value' => 'fab fa-facebook', 'library' => 'fa-brands' ],
-				'link'        => [ 'url' => '#', 'is_external' => '', 'nofollow' => '', 'custom_attributes' => 'aria-label|Facebook - launching soon' ],
+				'link'        => [ 'url' => 'https://www.facebook.com/', 'is_external' => 'true', 'nofollow' => '', 'custom_attributes' => 'aria-label|Facebook' ],
 				'_id'         => aura_eid( 'fb' ),
 			],
 			[
 				'social_icon' => [ 'value' => 'fab fa-youtube', 'library' => 'fa-brands' ],
-				'link'        => [ 'url' => '#', 'is_external' => '', 'nofollow' => '', 'custom_attributes' => 'aria-label|YouTube - launching soon' ],
+				'link'        => [ 'url' => 'https://www.youtube.com/', 'is_external' => 'true', 'nofollow' => '', 'custom_attributes' => 'aria-label|YouTube' ],
 				'_id'         => aura_eid( 'yt' ),
 			],
 		],

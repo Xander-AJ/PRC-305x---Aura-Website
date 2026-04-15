@@ -178,10 +178,10 @@
                                             "library": "fa-brands"
                                         },
                                         "link": {
-                                            "url": "#",
-                                            "is_external": "",
+                                            "url": "https://www.instagram.com/",
+                                            "is_external": "true",
                                             "nofollow": "",
-                                            "custom_attributes": "aria-label|Instagram - launching soon"
+                                            "custom_attributes": "aria-label|Instagram"
                                         },
                                         "_id": "ebfc977d"
                                     },
@@ -191,10 +191,10 @@
                                             "library": "fa-brands"
                                         },
                                         "link": {
-                                            "url": "#",
-                                            "is_external": "",
+                                            "url": "https://www.facebook.com/",
+                                            "is_external": "true",
                                             "nofollow": "",
-                                            "custom_attributes": "aria-label|Facebook - launching soon"
+                                            "custom_attributes": "aria-label|Facebook"
                                         },
                                         "_id": "81729a03"
                                     },
@@ -204,10 +204,10 @@
                                             "library": "fa-brands"
                                         },
                                         "link": {
-                                            "url": "#",
-                                            "is_external": "",
+                                            "url": "https://www.youtube.com/",
+                                            "is_external": "true",
                                             "nofollow": "",
-                                            "custom_attributes": "aria-label|YouTube - launching soon"
+                                            "custom_attributes": "aria-label|YouTube"
                                         },
                                         "_id": "97ee8ef3"
                                     }
